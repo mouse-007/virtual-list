@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.listBox{
+    height: 500px;
+    border: 1px solid rgb(243, 208, 196);
+    width: 200px;
+    position: relative;
+    overflow-y: auto;
+    margin: 30px auto;
+}
+.list_item{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #aaa;
+}
